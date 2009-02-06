@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character-sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <characterInfo>
+    <character battleGroup="Blackout" charUrl="r=Aszune&amp;n=Adries" class="Warrior" classId="1" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Impact" guildUrl="r=Aszune&amp;n=Impact&amp;p=1" lastModified="February 2, 2009" level="48" name="Adries" points="420" prefix="" race="Human" raceId="1" realm="Aszune" suffix=" the Explorer"/>
+    <characterTab>
+      <talentSpec treeOne="8" treeThree="0" treeTwo="31"/>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="91"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill key="blacksmithing" max="300" name="Blacksmithing" value="207"/>
+        <skill key="mining" max="300" name="Mining" value="224"/>
+      </professions>
+      <title value=""/>
+      <knownTitles/>
+      <characterBars>
+        <health effective="2611"/>
+        <secondBar casting="-1" effective="100" notCasting="-1" perFive="-1" type="r"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="398" base="94" block="10" effective="209"/>
+        <agility armor="168" attack="-1" base="64" critHitPercent="8.43" effective="84"/>
+        <stamina base="91" effective="171" health="1530" petBonus="-1"/>
+        <intellect base="27" critHitPercent="-1.00" effective="31" mana="-1" petBonus="-1"/>
+        <spirit base="39" effective="54" healthRegen="33" manaRegen="-1"/>
+        <armor base="2761" effective="2761" percent="38.13" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="10"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="44.0" max="134" min="131" percent="0" speed="3.00"/>
+        <offHandDamage dps="27.2" max="55" min="54" percent="0" speed="2.00"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="3.00"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="2.00"/>
+        <power base="542" effective="602" increasedDps="43.0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="0.00" plusPercent="0.74" rating="8"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="48.0" max="149" min="111" percent="0" speed="2.70"/>
+        <speed hastePercent="0.00" hasteRating="0" value="2.70"/>
+        <power base="122" effective="182" increasedDps="13.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="8.29" plusPercent="0.74" rating="8"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="0"/>
+          <fire value="0"/>
+          <frost value="0"/>
+          <holy value="0"/>
+          <nature value="0"/>
+          <shadow value="0"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedResist="0" value="0"/>
+        <critChance rating="8">
+          <arcane percent="0.74"/>
+          <fire percent="0.74"/>
+          <frost percent="0.74"/>
+          <holy percent="0.74"/>
+          <nature percent="0.74"/>
+          <shadow percent="0.74"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="0.00" notCasting="0.00"/>
+        <hasteRating hastePercent="0.00" hasteRating="0"/>
+      </spell>
+      <defenses>
+        <armor base="2761" effective="2761" percent="38.13" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="238.00"/>
+        <dodge increasePercent="0.00" percent="7.87" rating="0"/>
+        <parry increasePercent="0.00" percent="9.92" rating="0"/>
+        <block increasePercent="0.00" percent="4.92" rating="0"/>
+        <resilience damagePercent="0.00" hitPercent="0.00" value="0.00"/>
+      </defenses>
+      <items>
+        <item durability="80" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_helmet_13" id="10763" maxDurability="80" permanentenchant="0" randomPropertiesId="0" seed="0" slot="0"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_02" id="33265" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="2040783260" slot="1"/>
+        <item durability="76" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_01" id="9476" maxDurability="80" permanentenchant="0" randomPropertiesId="0" seed="799330898" slot="2"/>
+        <item durability="108" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_leather_07" id="10086" maxDurability="115" permanentenchant="1892" randomPropertiesId="313" seed="1595075004" slot="4"/>
+        <item durability="40" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_19" id="8277" maxDurability="40" permanentenchant="0" randomPropertiesId="0" seed="1570783238" slot="5"/>
+        <item durability="81" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_03" id="9291" maxDurability="85" permanentenchant="0" randomPropertiesId="1127" seed="0" slot="6"/>
+        <item durability="64" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_plate_06" id="9387" maxDurability="65" permanentenchant="0" randomPropertiesId="1200" seed="836190896" slot="7"/>
+        <item durability="38" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_13" id="14910" maxDurability="40" permanentenchant="0" randomPropertiesId="1195" seed="904127922" slot="8"/>
+        <item durability="45" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_26" id="9640" maxDurability="45" permanentenchant="0" randomPropertiesId="1209" seed="0" slot="9"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_05" id="2933" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="140716838" slot="10"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_05" id="6757" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="1799814769" slot="11"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_16" id="33261" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="122449525" slot="14"/>
+        <item durability="16" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_fishingpole_02" id="6256" maxDurability="16" permanentenchant="0" randomPropertiesId="0" seed="0" slot="15"/>
+        <item durability="65" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_bow_02" id="33273" maxDurability="65" permanentenchant="0" randomPropertiesId="0" seed="290621992" slot="17"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="5976" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="18"/>
+        <item durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_shortblade_25" id="11285" maxDurability="0" permanentenchant="0" randomPropertiesId="0" seed="0" slot="-1"/>
+      </items>
+    </characterTab>
+  </characterInfo>
+</page>

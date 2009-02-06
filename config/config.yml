@@ -1,0 +1,24 @@
+# Describes how to parse XML and name attributes
+character:
+  file: "character-sheet.xml"
+  attributes:
+    name: '(doc/:character).first["name"]'
+    prefix: '(doc/:character).first["prefix"]'
+    suffix: '(doc/:character).first["suffix"]'
+    
+    level: '(doc/:character).first["level"].to_i'
+    points: '(doc/:character).first["points"].to_i'
+    
+    gender: '(doc/:character).first["gender"]'
+    gender_id: '(doc/:character).first["genderId"].to_i'
+    
+    race: '(doc/:character).first["race"]'
+    race_id: '(doc/:character).first["raceId"].to_i'
+    
+    class_name: '(doc/:character).first["class"]'
+    class_id: '(doc/:character).first["classId"].to_i'
+  
+    faction: '(doc/:character).first["faction"]'
+    faction_id: '(doc/:character).first["factionId"].to_i'
+    
+    last_modified_at: 'DateTime.parse((doc/:character).first["lastModified"])'
