@@ -1,4 +1,4 @@
-== 0.0.1 2009-02-05
+== 0.1.0 2009-02-06
 
-* 1 major enhancement:
-  * Initial release
+* Intial release of warcraft-armory:
+  * Retrieval of character information from EU and US armories.

@@ -1,32 +1,34 @@
-= warcraft-armory
+= Warcraft Armory
 
-* FIX (url)
+* http://ariejan.net/tags/warcraft-armory
 
 == DESCRIPTION:
 
-FIX (describe your package)
+The warcraft-armory gem allows your application to easily access information
+from the World of Warcraft Armory site. 
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Retrieve basic character information from the EU and US armory.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  require 'warcraft-armory'
+  WarcraftArmory::Character.find(:eu, :aszune, :adries)
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* You'll need the <tt>hpricot</tt> gem installed. It's a dependency, so it should already be installed for you with this gem. 
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install warcraft-armory
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Ariejan de Vroom
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
