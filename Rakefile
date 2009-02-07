@@ -16,7 +16,7 @@ $hoe = Hoe.new('warcraft-armory', WarcraftArmory::VERSION) do |p|
   # p.description = "The warcraft-armory gem allows your application to easily access information from the World of Warcraft Armory site."
   p.clean_globs |= %w[**/.DS_Store tmp *.log]
   path = (p.rubyforge_name == p.name) ? p.rubyforge_name : "\#{p.rubyforge_name}/\#{p.name}"
-  p.remote_rdoc_dir = File.join(path.gsub(/^#{p.rubyforge_name}\/?/,''), 'rdoc')
+  p.remote_rdoc_dir = File.join(path.gsub(/^#{p.rubyforge_name}\/?/,''))
   p.rsync_args = '-av --delete --ignore-errors'
 end
 

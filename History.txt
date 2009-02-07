@@ -1,3 +1,8 @@
+== 0.1.1 2009-02-07
+
+* Added more fields to WarcraftArmory::Character
+  * Realm, Battle group and Guild name.
+
 == 0.1.0 2009-02-06
 
 * Intial release of warcraft-armory:
