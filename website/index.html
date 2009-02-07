@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+      warcraft-armory
+  </title>
+  <script src="javascripts/rounded_corners_lite.inc.js" type="text/javascript"></script>
+<style>
+
+</style>
+  <script type="text/javascript">
+    window.onload = function() {
+      settings = {
+          tl: { radius: 10 },
+          tr: { radius: 10 },
+          bl: { radius: 10 },
+          br: { radius: 10 },
+          antiAlias: true,
+          autoPad: true,
+          validTags: ["div"]
+      }
+      var versionBox = new curvyCorners(settings, document.getElementById("version"));
+      versionBox.applyCornersToAll();
+    }
+  </script>
+</head>
+<body>
+<div id="main">
+
+    <h1>warcraft-armory</h1>
+    <div class="sidebar">
+      <div id="version" class="clickable" onclick='document.location = "http://rubyforge.org/projects/warcraft-armory"; return false'>
+        <p>Get Version</p>
+        <a href="http://rubyforge.org/projects/warcraft-armory" class="numbers">0.1.1</a>
+      </div>
+    </div>
+    <h2>What</h2>
+<p>The warcraft-armory gem allows your ruby application to easily access information<br />
+from the World of Warcraft Armory site.</p>
+<h2>Installing</h2>
+<p><pre class='syntax'><span class="ident">sudo</span> <span class="ident">gem</span> <span class="ident">install</span> <span class="ident">warcraft</span><span class="punct">-</span><span class="ident">armory</span></pre></p>
+<h2>The basics</h2>
+<p>It&#8217;s quite easy to find information on any character above level 10 on the Warcraft Armory. See the demonstration below.</p>
+<h2>Demonstration of usage</h2>
+<p><pre class='syntax'><span class="ident">require</span> <span class="punct">'</span><span class="string">warcraft-armory</span><span class="punct">'</span>
+	
+<span class="ident">character</span> <span class="punct">=</span> <span class="constant">WarcraftArmory</span><span class="punct">::</span><span class="constant">Character</span><span class="punct">.</span><span class="ident">find</span><span class="punct">(</span><span class="symbol">:eu</span><span class="punct">,</span> <span class="symbol">:aszune</span><span class="punct">,</span> <span class="symbol">:adries</span><span class="punct">)</span>
+<span class="comment"># =&gt; &lt;WarcraftArmory::Character&gt;</span>
+
+<span class="ident">character</span><span class="punct">.</span><span class="ident">name</span>
+<span class="comment"># =&gt; &quot;Adries&quot;</span>
+
+<span class="ident">character</span><span class="punct">.</span><span class="ident">level</span>
+<span class="comment"># =&gt; 48</span>
+
+<span class="ident">character</span><span class="punct">.</span><span class="ident">full_name</span>
+<span class="comment"># =&gt; &quot;Adries the Explorer&quot;</span>
+
+<span class="ident">character</span><span class="punct">.</span><span class="ident">description</span>
+<span class="comment"># =&gt; &quot;Level 48 Human Warrior&quot;</span></pre></p>
+<p>Read the full documentation at <a href="http://warcraft-armory.rubyforge.org/rdoc">http://warcraft-armory.rubyforge.org/rdoc</a></p>
+<h2>Forum</h2>
+<p>You can discuss warcraft-armory on Google Groups.</p>
+<p><a href="http://groups.google.com/group/warcraft-armory">http://groups.google.com/group/warcraft-armory</a></p>
+<h2>How to submit patches</h2>
+<p>The code is on Github, so feel free to fork an send pull requests if you have anything new.</p>
+<ul>
+	<li>github: <a href="http://github.com/ariejan/warcraft-armory/tree/master">http://github.com/ariejan/warcraft-armory/tree/master</a></li>
+</ul>
+<pre>git clone git://github.com/ariejan/warcraft-armory.git</pre>
+<h3>Build and test instructions</h3>
+<pre>cd warcraft-armory
+rake spec
+rake install_gem</pre>
+<h2>License</h2>
+<p>This code is free to use under the terms of the <span class="caps">MIT</span> license.</p>
+<h2>Contact</h2>
+<p>Comments are welcome. Send an email to <a href="mailto:ariejan@ariejan.net">Ariejan de Vroom</a> via the <a href="http://groups.google.com/group/warcraft-armory">forum</a></p>
+    <p class="coda">
+      <a href="ariejan@ariejan.net">Ariejan de Vroom</a>, 7th February 2009<br>
+      Theme extended from <a href="http://rb2js.rubyforge.org/">Paul Battley</a>
+    </p>
+</div>
+
+<!-- insert site tracking codes here, like Google Urchin -->
+
+</body>
+</html>

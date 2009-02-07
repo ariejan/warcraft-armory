@@ -1,0 +1,64 @@
+h1. warcraft-armory
+
+h2. What
+
+The warcraft-armory gem allows your ruby application to easily access information
+from the World of Warcraft Armory site.
+
+h2. Installing
+
+<pre syntax="ruby">sudo gem install warcraft-armory</pre>
+
+h2. The basics
+
+It's quite easy to find information on any character above level 10 on the Warcraft Armory. See the demonstration below.
+
+h2. Demonstration of usage
+
+<pre syntax="ruby">require 'warcraft-armory'
+	
+character = WarcraftArmory::Character.find(:eu, :aszune, :adries)
+# => <WarcraftArmory::Character>
+
+character.name
+# => "Adries"
+
+character.level
+# => 48
+
+character.full_name
+# => "Adries the Explorer"
+
+character.description
+# => "Level 48 Human Warrior"</pre>
+
+Read the full documentation at "http://warcraft-armory.rubyforge.org/rdoc":http://warcraft-armory.rubyforge.org/rdoc
+
+h2. Forum
+
+You can discuss warcraft-armory on Google Groups.
+
+"http://groups.google.com/group/warcraft-armory":http://groups.google.com/group/warcraft-armory
+
+h2. How to submit patches
+
+The code is on Github, so feel free to fork an send pull requests if you have anything new.
+
+* github: "http://github.com/ariejan/warcraft-armory/tree/master":http://github.com/ariejan/warcraft-armory/tree/master
+
+<pre>git clone git://github.com/ariejan/warcraft-armory.git</pre>
+
+h3. Build and test instructions
+
+<pre>cd warcraft-armory
+rake spec
+rake install_gem</pre>
+
+h2. License
+
+This code is free to use under the terms of the MIT license. 
+
+h2. Contact
+
+Comments are welcome. Send an email to "Ariejan de Vroom":mailto:ariejan@ariejan.net via the "forum":http://groups.google.com/group/warcraft-armory
+

@@ -43,7 +43,7 @@ module WarcraftArmory
   #   character.full_name
   #   # => "Adries the Explorer"
   #
-  #   characer.description
+  #   character.description
   #   # => "Level 48 Human Warrior"
   #
   class Character
