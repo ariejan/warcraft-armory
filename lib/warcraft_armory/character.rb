@@ -21,7 +21,10 @@ module WarcraftArmory
   # * <tt>gender</tt> - The character's gender. E.g. "Male"
   # * <tt>gender_id</tt> - The internal (World of Warcraft) id for gender.
   # * <tt>points</tt> - Total number of the character's achievement points.
-  # * <tt>last_modifiedat</tt> - A <tt>DateTime</tt> object with the date the armory data was last updated.  
+  # * <tt>last_modifiedat</tt> - A <tt>DateTime</tt> object with the date the armory data was last updated. 
+  # * <tt>realm</tt> - The official realm name. E.g. "Aszune"
+  # * <tt>battle_group</tt> - The battle group for this character. E.g. "Blackout"
+  # * <tt>guild_name</tt> - The name of the character's guild. E.g. "Impact". Blank is no guild is available. 
   #
   # ==== Available helper methods
   # * <tt>full_name</tt> - Returns the full name of the character, including the <tt>prefix</tt> and <tt>suffix</tt>
