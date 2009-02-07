@@ -1,10 +1,11 @@
 = Warcraft Armory
 
 * http://ariejan.net/tags/warcraft-armory
+* http://github.com/ariejan/warcraft-armory
 
 == DESCRIPTION:
 
-The warcraft-armory gem allows your application to easily access information
+The warcraft-armory gem allows your ruby application to easily access information
 from the World of Warcraft Armory site. 
 
 == FEATURES/PROBLEMS:
