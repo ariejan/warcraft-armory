@@ -18,7 +18,10 @@ describe WarcraftArmory::Character do
       :class_id => 1,
       :prefix => "",
       :suffix => " the Explorer", 
-      :last_modified_at => DateTime.parse("February 2, 2009")
+      :last_modified_at => DateTime.parse("February 2, 2009"),
+      :realm => "Aszune",
+      :guild_name => "Impact",
+      :battle_group => "Blackout"
     }
   end
   

@@ -22,3 +22,7 @@ character:
     faction_id: '(doc/:character).first["factionId"].to_i'
     
     last_modified_at: 'DateTime.parse((doc/:character).first["lastModified"])'
+    
+    realm: '(doc/:character).first["realm"]'
+    guild_name: '(doc/:character).first["guildName"]'
+    battle_group: '(doc/:character).first["battleGroup"]'    
