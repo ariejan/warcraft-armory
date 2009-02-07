@@ -3,6 +3,7 @@ Manifest.txt
 README.rdoc
 Rakefile
 config/config.yml
+config/website.yml
 lib/warcraft-armory.rb
 lib/warcraft_armory.rb
 lib/warcraft_armory/base.rb
@@ -18,3 +19,4 @@ spec/warcraft_armory/base_spec.rb
 spec/warcraft_armory/character_spec.rb
 spec/warcraft_armory/utils/parser_spec.rb
 tasks/rspec.rake
+warcraft-armory.gemspec
